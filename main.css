@@ -1,0 +1,22 @@
+.thumb-gallery {
+	display: flex;
+}
+
+.gallery-item {
+	width: 180px;
+	height: 180px;
+	display: flex;
+	background: grey;
+	margin: 0 4px;
+	border: 1px solid black;
+	align-items: center;
+}
+
+.gallery-item:first-child {
+	margin-left: 0;
+}
+
+.gallery-item a img {
+	width: 100%;
+	height: auto;
+}
